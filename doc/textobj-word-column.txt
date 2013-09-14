@@ -12,6 +12,7 @@ CONTENTS                                         *textobj-word-column-contents*
 
 ===============================================================================
 INTRO                                               *textobj-word-column-intro*
+                                                          *textobj-word-column*
 
 The word-based column |text-object| makes operating on columns of code
 conceptually simpler and reduces keystrokes.
@@ -28,32 +29,32 @@ and even unecessary for certain operations.
 ===============================================================================
 WORD-BASED COLUMN                                *textobj-word-column-mappings*
 
-                                                   *ac* *cac* *dac* *vac* *yac*
-ac               "a column", a column based on "a word" |aw|.
+                                                   *av* *cav* *dav* *vav* *yav*
+av               "a column", a column based on "a word" |aw|.
 
-                                                   *ic* *cic* *dic* *vic* *yic*
-ic               "inner column", a column based on the "inner word" |iw|.
+                                                   *iv* *civ* *div* *viv* *yiv*
+iv               "inner column", a column based on the "inner word" |iw|.
 
-                                                   *aC* *caC* *daC* *vaC* *yaC*
-aC               "a COLUMN", a column based on "a WORD" |aW|.
+                                                   *aV* *caV* *daV* *vaV* *yaV*
+aV               "a COLUMN", a column based on "a WORD" |aW|.
 
-                                                   *iC* *ciC* *diC* *viC* *yiC*
-iC               "inner COLUMN", a column based on "inner WORD" |iW|.
+                                                   *iV* *ciV* *diV* *viV* *yiV*
+iV               "inner COLUMN", a column based on "inner WORD" |iW|.
 
 ===============================================================================
 USAGE EXAMPLES                                   *textobj-word-column-examples*
 
-vic                      Visually select a column.
+viv                      Visually select a column.
 
-cic                      Change a column.
+civ                      Change a column.
 
-dac                      Delete a column.
+dav                      Delete a column.
 
-vicI                     Prepend new text to a column.
+vivI                     Prepend new text to a column.
 
-vicA                     Append new text to a column.
+vivA                     Append new text to a column.
 
-viC                      Visually select a WORD based colunn.
+viV                      Visually select a WORD based colunn.
 
 ===============================================================================
 CONTRIBUTING                                 *textobj-word-column-contributing*
@@ -84,7 +85,7 @@ CHANGELOG                                       *textobj-word-column-changelog*
   smarter about when to do when whitespace is in the mix.
 
 >
-  * Cursor position | vic Without Smart Boundaries | vic With Smart Boundaries
+  * Cursor position | viv Without Smart Boundaries | viv With Smart Boundaries
   ------------------+------------------------------+---------------------------
 
       ab*c   omg              |abc|    omg                |abc   | omg
