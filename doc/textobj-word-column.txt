@@ -29,32 +29,32 @@ and even unecessary for certain operations.
 ===============================================================================
 WORD-BASED COLUMN                                *textobj-word-column-mappings*
 
-                                                   *av* *cav* *dav* *vav* *yav*
-av               "a column", a column based on "a word" |aw|.
+                                                   *ak* *cak* *dak* *vak* *yak*
+ak               "a column", a column based on "a word" |aw|.
 
-                                                   *iv* *civ* *div* *viv* *yiv*
-iv               "inner column", a column based on the "inner word" |iw|.
+                                                   *ik* *cik* *dik* *vik* *yik*
+ik               "inner column", a column based on the "inner word" |iw|.
 
-                                                   *aV* *caV* *daV* *vaV* *yaV*
-aV               "a COLUMN", a column based on "a WORD" |aW|.
+                                                   *aK* *caK* *daK* *vaK* *yaK*
+aK               "a COLUMN", a column based on "a WORD" |aW|.
 
-                                                   *iV* *ciV* *diV* *viV* *yiV*
-iV               "inner COLUMN", a column based on "inner WORD" |iW|.
+                                                   *iK* *ciK* *diK* *viK* *yiK*
+iK               "inner COLUMN", a column based on "inner WORD" |iW|.
 
 ===============================================================================
 USAGE EXAMPLES                                   *textobj-word-column-examples*
 
-viv                      Visually select a column.
+vik                      Visually select a column.
 
-civ                      Change a column.
+cik                      Change a column.
 
-dav                      Delete a column.
+dak                      Delete a column.
 
-vivI                     Prepend new text to a column.
+vikI                     Prepend new text to a column.
 
-vivA                     Append new text to a column.
+vikA                     Append new text to a column.
 
-viV                      Visually select a WORD based colunn.
+viK                      Visually select a WORD based colunn.
 
 ===============================================================================
 CONTRIBUTING                                 *textobj-word-column-contributing*
@@ -85,7 +85,7 @@ CHANGELOG                                       *textobj-word-column-changelog*
   smarter about when to do when whitespace is in the mix.
 
 >
-  * Cursor position | viv Without Smart Boundaries | viv With Smart Boundaries
+  * Cursor position | vik Without Smart Boundaries | vik With Smart Boundaries
   ------------------+------------------------------+---------------------------
 
       ab*c   omg              |abc|    omg                |abc   | omg
