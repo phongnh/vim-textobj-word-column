@@ -16,8 +16,8 @@ and even unecessary for certain operations.
 
 ### Usage
 
-This plugin adds `ic`, `ac`, `iC`, and `aC` as text-objects.  Use them in
-commands like `vic`, `cic`, and `daC`.
+This plugin adds `iv`, `av`, `iV`, and `aV` as text-objects.  Use them in
+commands like `viv`, `civ`, and `daV`. 
 
 ### Learn more in the plugin doc:
 
